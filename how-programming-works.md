@@ -10,7 +10,7 @@
 
 ## Many Tools, but best is to start from scratch
 
-### IDEs
+### IDEs, version control
 
 ### Text Editors
 

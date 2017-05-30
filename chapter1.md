@@ -2,10 +2,14 @@
 
 ## What you've been told
 
+There are many commonly-held beliefs that are half-truths and myths.  I'll try to address some of the most common I've heard, and give a perspective that might be useful to an outsider.
+
 * Just giving a computer instructions
+
   * not useful
 
 * Only for "X" people
+
 * Hard
 * Programmers never seem to get anything done
 
@@ -37,8 +41,6 @@
 * There are a lot of tools
 * Difficult problems
 * Modularity
-
-
 
 
 

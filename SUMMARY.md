@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * ["Hello, World" \(of programming\)](chapter1.md)
+* Programming vs. Software Engineering vs. Hacking vs. Coding vs. Computer Science-ing
 * [State of the field](state-of-the-field.md)
 * [How programming works](how-programming-works.md)
 * [Types of languages](types-of-languages.md)

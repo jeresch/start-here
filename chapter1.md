@@ -11,6 +11,7 @@ There are many commonly-held beliefs that are half-truths and myths.  I'll try t
 * Only for "X" people
 
 * Hard
+
 * Programmers never seem to get anything done
 
 ## What they're not telling you

@@ -70,15 +70,39 @@ If I was being being paid $10/hr to add numbers, it would only be fair to pay a 
 
 Thankfully, we don't need to pay computers!  We do need to point them in the right direction, though, and that's where programming comes into play.
 
-### OS
-
-Operating
-
 ### 1s and 0s
+
+Computers are fast, but they are also pretty dumb.  How dumb?  Yes.  What does that mean, we ask? 10001110.  Are you messing with me?  No.  What do you mean, no?  00000000.
+
+That was pretty meaningless, and so is everything computers do!  At the lowest level, computers are just one big electrical circuit that does neat things.
+
+One level up, we give it _very_ simple instructions.  I'll write some pseudocode \(e.g. not quite real\) for the ARM processor in your phone below.  Every X1, X2 etc refers to a register, or slot that we can store values in \(your phone probably has 32\).
+
+```
+start:          ; A label to jump to
+mov X1, #400    ; Put the number 400 into the first slot
+mov X2, #2      ; Put the number 2 into the second slot
+
+loop:           ; Another label we'll use in a second
+add X2, X2, #4  ; Add 4 + what's in X2, and store it in X2
+sub X3, X1, X2  ; Put X1 - X2 into X3
+mov X4, X3      ; Put X3 into X4
+cbnz X4, loop   ; If the number 0 isn't in X3, jump up to the loop label
+
+HLT 0           ; End the program
+```
+
+This should be completely incomprehensible, so don't worry if you don't see what's going on!  This little program deviates from best practice for simplicity's sake and for illustration, but you should note a few things.  First, there are only 4 real operations the computer is actually doing: Moving a number into a slot, adding 2 numbers, subtracting 2 numbers, and jumping.  These are the sorts of things that a computer knows how to do.
+
+Going deeper down the rabbit hole than this really does require computer architecture, and there's much more to this low-level programming than what I demonstrated, so for now, and maybe forever, you may happily imagine magic is at work.  I personally like to imagine dumbly-fast/quickly-dumb little elves running around putting numbers in different slots.
+
+Also, before we move on, I'd like to note, there's a bug in the program I wrote above!  We start at X2 = 2, then X2 = 6, X2 = 10, ..., X2 = 398, X2 = 402, ...  If X2 was ever 400, then we would end and go to the HLT instruction, but as written, this will never happen.  Programmers might never realize this, and the computer will neither realize nor care.  Fastly dumb.
 
 ### Layered abstractions
 
-### Really fast
+### OS
+
+Operating
 
 ## Why programming languages?
 

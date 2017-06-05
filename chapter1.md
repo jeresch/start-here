@@ -52,9 +52,29 @@ There are also some tragically under-shared facts about programming that are wor
 
 ## What are computers?
 
-Okay, enough with the silly societal issues.  Let's get down to some cold hard programming.
+Okay, enough with the silly societal issues.  Let's get down to some cold hard programming.  Well, let's at least set the groundwork first.
+
+### Gotta go fast
+
+Computers are really just machines like any others, just with different goals.  In the 19th century, while people were designing new machines for manufacturing and transportation, Charles Babbage designed another machine, for computation.  Long before that, though, people used abacuses as a mechanical \(but human-powered\) aid to arithmetic.
+
+The operations that a computer can actually do aren't all that exciting.  The hardware itself isn't able to do much more than add and move numbers around.  We only care about modern computers because they do this _really quickly_.
+
+Like, mind-blowingly quickly.  There are a few things that make it difficult to say _exactly_ how quickly, but I'll take my computer for example.  Take this with a grain of salt.
+
+I am writing this on a 5 year old MacBook Air. The processor is clocked at 1.7 GHz, actually on the slower side today.  Still, this means it can do \(very approximately\) 1,700,000,000 additions every second.  I'm no math whiz, so 1,235,266,732 + 356,234,347,345,253 will take me a good couple of seconds, lets say 10.
+
+If my computer thought that it also took around 10 seconds to do the addition, \(they are big numbers, after all\), the 10 seconds of computer time translate to 17,000,000,000 seconds of me time.  That's 283,000,000 minutes, or 4,722,000 hours, or 200,000 days, 539 years.
+
+If I was being being paid $10/hr to add numbers, it would only be fair to pay a computer $47,000,000/hr for the same time spent.
+
+Thankfully, we don't need to pay computers!  We do need to point them in the right direction, though, and that's where programming comes into play.
+
+I'm no math whiz, so if you asked me 
 
 ### OS
+
+Operating 
 
 ### 1s and 0s
 
@@ -64,9 +84,9 @@ Okay, enough with the silly societal issues.  Let's get down to some cold hard p
 
 ## Why programming languages?
 
-### Originally punch cards
-
 ### Computers weren't general purpose
+
+### Originally punch cards
 
 ### Languages are easier, and get more and more like English
 

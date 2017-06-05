@@ -70,11 +70,9 @@ If I was being being paid $10/hr to add numbers, it would only be fair to pay a 
 
 Thankfully, we don't need to pay computers!  We do need to point them in the right direction, though, and that's where programming comes into play.
 
-I'm no math whiz, so if you asked me 
-
 ### OS
 
-Operating 
+Operating
 
 ### 1s and 0s
 

@@ -22,7 +22,23 @@ I personally have met people of all genders and orientations, all races, all age
 
 ### Programming is hard
 
+This is a fair point.  Programming is really hard, but it's important to understand that the "hardness" worst at the beginning.  Learning curves can be deceptive, but to be fair, the curve for programming is particularly tough.
+
+One writeup I enjoy illustrates this with well-done graphs.  It's pretty commercially-focused, but I think a lot of what they say applies to hobbyists as well.  It's a little controversial, but taken with a grain of salt, it's a good skim/read: [https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard.](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
+
 ### Programmers never get anything done
+
+If you've been in a workplace around programmers, you probably have felt the frustration of missed deadlines and slow results.  Programming can be a surprisingly long process, especially if it needs to be done with accountability to commercial needs.
+
+That said, it's possible for one person to code a game or app in only a day or two!  The difference is explained in another writeup I enjoy, but I'll copy the main points.
+
+1. Performance
+2. Edge cases
+3. Multiple platforms
+4. Interactions with other code
+5. Testing
+
+If you're interested check out [https://wtfismyengineertalkingabout.com/2017/03/11/i-wrote-the-sql-query-in-5-mins-why-does-my-engineer-say-it-will-take-a-month/](https://wtfismyengineertalkingabout.com/2017/03/11/i-wrote-the-sql-query-in-5-mins-why-does-my-engineer-say-it-will-take-a-month/).  In short, writing an email in the workplace isn't much more work than at home, but the requirements for business programming take much more time to address.
 
 ## What they're not telling you
 

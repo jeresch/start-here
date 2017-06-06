@@ -100,6 +100,88 @@ Also, before we move on, I'd like to note, there's a bug in the program I wrote 
 
 ### Layered abstractions
 
+So all computers can do is move around numbers?  How can that be?  My computer recommends me movies, lets me store my notes, and helps me doctor pictures of myself.  There are no numbers in any of those tasks!
+
+Actually, there are.  You could feasibly perform all of those tasks with a pen and paper.  \(A really big pen with a ton of paper, and insane amounts of time\).  This is basically what a computer is doing, but because it's so fast, we can build "abstractions."
+
+Take the adding example from [1s and 0.](#1s-and-0s)  There was no multiplication at all!  But I claim we had all of the tools necessary to multiply to our heart's content.  How could you multiply 20 \* 25 without multiplying?  Easy.$$20*25 = 25+25+25+25+25+25+25+25+25+25+25+25+25+25+25+25+25+25+25+25$$Well, maybe not _easy_ in the conventional sense, but for a computer, this is almost instant.  So, we can talk about multiplication in nice easy terms like 20 \* 25, and leave the busy work to the computer.
+
+This is an example of an _abstraction_, in which we do a little bit of formulating something messy in order to not have to worry about it later.  For example, a simple task like "getting groceries" can be an item on our to-do list, and because we have a name for it, we never have to worry about the thousands of tiny tasks that make it work.  I'll start to break down the task like a computer would, and it will hopefully become clear why abstractions are so critical.
+
+```
+"Get Groceries"
+|---Write item list
+|   |---Get materials
+|   |   |---Paper
+|   |   |   |---Find paper
+|   |   |   |   |---Look in cabinet
+|   |   |   |
+|   |   |   |---Bring paper back to kitchen
+|   |   |   
+|   |   |---Pencil
+|   |   |   |---Find pencil
+|   |   |   |---Retrieve pencil
+|   |   |
+|   |---Determine needed foods
+|   |   |---Look in fridge
+|   |   |   |---Look for near-empty containers
+|   |   |   |   |---Check door
+|   |   |   |   |---Check drawers
+|   |   |   |   |   |---Check left drawer
+|   |   |   |   |   |---Check right drawer
+|   |   |   |   |
+|   |   |   |   |---Check shelves
+|   |   |   |       |---Check bottom shelf
+|   |   |   |       |---Check middle shelf
+|   |   |   |       |---Check top shelf
+|   |   |   |
+|   |   |   |---Check expiration dates
+|   |   |       |---Check door
+|   |   |       |---Check drawers
+|   |   |       |   |---Check left drawer
+|   |   |       |   |---Check right drawer
+|   |   |       |
+|   |   |       |---Check shelves
+|   |   |           |---Check bottom shelf
+|   |   |           |---Check middle shelf
+|   |   |           |---Check top shelf
+|   |   |
+|   |   |-Look in cupboard
+|   |   |   |---Look for near-empty containers
+| | | |---Check shelves
+| | | |---Check bottom shelf
+| | | |---Check middle shelf
+| | | |---Check top shelf
+|   |   |   |   |---Check door
+|   |   |   |   |---Check drawers
+|   |   |   |   |---Check shelves
+|   |   |   |
+|   |   |   |---Check expiration dates
+|   |   |       |---Check door
+|   |   |       |---Check drawers
+|   |   |       |   |---Check left drawer
+|   |   |       |   |---Check right drawer
+|   |   |       |
+|   |   |       |---Check shelves
+|   |   |           |---Check bottom shelf
+|   |   |           |---Check middle shelf
+|   |   |           |---Check top shelf
+|   |   |
+
+|   |   |-Consult stomach
+|   |-Write needed foods
+|
+| Get to store
+| Buy items
+| Return home
+| Store items
+|
+|
+|
+```
+
+
+
 ### OS
 
 Operating
